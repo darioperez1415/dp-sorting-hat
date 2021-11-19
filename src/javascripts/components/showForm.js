@@ -1,5 +1,5 @@
 import renderToDOM from '../helpers/renderToDom';
-import addStudentToArray from '../helpers/data/studentData';
+import { addStudentToArray } from '../helpers/data/studentData';
 
 const showForm = () => {
   document.querySelector('#button-div').innerHTML = '';
